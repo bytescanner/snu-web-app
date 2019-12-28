@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background-image: URL("C:/Users/Fnasser/Desktop/snu/background-images/login-background1.jpg");
+    background-repeat: unset;
+    background-size: 100%;
+    position: relative;
+}
+
+.middle {
+    display: grid;
+    vertical-align: middle;
+}
+
+.login-panel {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 2px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 440px;
+    width: 302px;
+    height: 300px;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    margin-bottom: 28px;
+    background-color: #fff;
+    min-width: 302px;
+    overflow: hidden;
+}
+
+#label {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+#text {
+    font-size: 13px;
+    float: left;
+    width: 300px;
+    height: 25px;
+    background-color: #E8F0FE;
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+    border-width: 1px;
+    border-color: black;
+    padding-left: 2px;
+}
+
+.logo {
+    color: grey;
+    height: 40px;
+    width: 100%px;
+    size: 40px;
+    margin: 10px 0px 10px 0px;
+}
+
+.logo #logo-label {
+    font-weight: 500;
+    font-size: 20px;
+    position: relative;
+    top: -5px;
+}
+
+button {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+    border: unset;
+    background-color: #005da6;
+    display: inline-block;
+    min-width: 100px;
+    padding: 4px 12px 4px 12px;
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    touch-action: manipulation;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 50px;
+}

@@ -1,0 +1,297 @@
+html,
+body,
+head {
+    font-family: az_ea_font, 'Segoe UI', az_font, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    display: ruby;
+}
+
+.top-nav {
+    overflow: hidden;
+    background-color: #1C1C1C;
+    width: 100%;
+    margin-bottom: 30px;
+    position: fixed;
+    top: 0;
+}
+
+.top-nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.top-nav a.active {
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #1C1C1C;
+    color: white;
+}
+
+.top-nav a:hover {
+    background-color: #605E5C;
+    color: white;
+}
+
+#search-container {
+    width: 50%;
+    position: fixed;
+    padding: 7px;
+    margin-left: 500px;
+}
+
+#search-container input {
+    position: absolute;
+    font-family: az_ea_font, 'Segoe UI', az_font, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 0;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 13px;
+    font-style: italic;
+    height: 26px;
+    background-color: #E1DFDD;
+    width: 50%;
+    border-radius: 2px;
+    border: none;
+}
+
+.menu-nav {
+    cursor: pointer;
+    overflow: -moz-hidden-unscrollable;
+    margin: 40px 0px 0px 0px;
+    height: 100%;
+    width: 200px;
+    float: left;
+    padding-top: 30px;
+    background-color: #323130;
+    position: fixed;
+    top: 0;
+}
+
+.menu-nav button {
+    text-align: left;
+    color: white;
+    background-color: #323130;
+    border: none;
+    width: 200px;
+    padding: 10px 10px 10px 40px;
+    display: block;
+    clear: rights;
+}
+
+#menu-nav1 i {
+    top: 35px;
+    left: 0;
+    padding: 0px 0px 0px 10px;
+    position: absolute;
+    float: left;
+}
+
+#menu-nav2 i {
+    top: 70px;
+    left: 0;
+    padding: 0px 0px 0px 10px;
+    position: absolute;
+    float: left;
+}
+
+.menu-nav button:hover {
+    background-color: #3E3D3C;
+}
+
+.menu-nav button:visited {
+    background-color: #3E3D3C;
+}
+
+h1 {
+    clear: both;
+    float: left;
+    font-size: 15px;
+    color: black;
+    margin: 80px 250px 80px 300px;
+}
+
+.snu-services button {
+    top: 0px;
+    float: left;
+    cursor: pointer;
+    padding-top: 40px;
+    margin: 120px 0px 0px -343px;
+    width: 100px;
+    height: 100px;
+    border: none;
+    color: black;
+    background-color: white;
+}
+
+.snu-services button:hover {
+    box-shadow: 0px 0px 15px 0px #605E5C;
+    border: 1px solid transparent;
+    border-color: #D6D6D6;
+}
+
+.snu-services i {
+    cursor: pointer;
+    float: left;
+    margin-left: -317px;
+    margin-top: 125px;
+}
+
+#outlook-shortcut button {
+    top: 0px;
+    float: left;
+    cursor: pointer;
+    padding-top: 40px;
+    margin: 120px 0px 0px -285px;
+    width: 250px;
+    height: 120px;
+    border: none;
+    color: black;
+    background-color: white;
+}
+
+.snu-tools button:hover {
+    box-shadow: 0px 0px 15px 0px #605E5C;
+    border: 2px solid transparent;
+}
+
+#outlook-shortcut a {
+    cursor: pointer;
+    font-size: 13px;
+    color: #0078D4;
+    text-decoration: none;
+    clear: none;
+    float: right;
+    top: 0px;
+    margin: -25px 60px 180px 10px;
+}
+
+#outlook-shortcut i {
+    cursor: pointer;
+    left: -200;
+    top: 20;
+    margin: 130px 200px 50px -270px;
+    float: left;
+}
+
+#outlook-shortcut p {
+    size: 10px;
+    cursor: pointer;
+    float: right;
+    color: black;
+    padding: 0px 820px 180px 250px;
+    font-size: 12px;
+}
+
+.title-content {
+    position: fixed;
+    background-color: white;
+    left: 250px;
+    top: 45px;
+    margin-bottom: 0px;
+    padding: 0px 0px 5px 0px;
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid #605E5C;
+    border-color: rgb(195, 195, 195);
+}
+
+#title-content-users h2 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 100%;
+    margin-top: -40px;
+    margin-left: 10px;
+}
+
+#subtitle-content-domain {
+    color: #605E5C;
+    position: absolute;
+    left: 40px;
+    padding: 0px 100px 0px 250px;
+    font-size: 10px;
+    line-height: 14px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+#title-content-users i {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: -40px;
+    position: relative;
+}
+
+.toolbar-container {
+    transition: none;
+    padding: 0px;
+    background-color: white;
+    height: 45px;
+    top: 100px;
+    position: fixed;
+    margin-left: 220px;
+    margin-top: 0px;
+    width: 100%;
+    border-bottom: 1px solid #605E5C;
+    border-color: rgb(195, 195, 195);
+}
+
+#newuser,
+button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 5px 5px 5px 3px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#newuser:hover {
+    background-color: #F3F2F1;
+    border: none;
+}
+
+#toolbarbutton-container {
+    border: none;
+    position: fixed;
+}
+
+#edituser,
+button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 5px 10px 5px 0px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#edituser:hover {
+    background-color: #F3F2F1;
+    border: none;
+}
+
+#searchfield-container {
+    margin: 0px;
+    clear: both;
+}
+
+#searchfield-container h5 {
+    padding: 140px 10px 20px 230px;
+}
+
+#searchfield-container input {
+    float: left;
+    margin: -30px 10px 20px 230px;
+}
+
+#hello {
+    margin: 1500px 1500px;
+}
