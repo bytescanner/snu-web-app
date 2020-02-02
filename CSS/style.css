@@ -182,11 +182,23 @@ h1 {
 #outlook-shortcut p {
     size: 10px;
     cursor: pointer;
-    float: right;
     color: black;
-    padding: 0px 820px 180px 250px;
+    padding-top: 390px;
+    padding-left: 315px;
     font-size: 12px;
+    width: 240px;
 }
+.fixed-container h3{
+    position: fixed;
+    color: #605E5C;
+    font-size: 10px;
+    line-height: 14px;
+    width: 200px;
+    margin-top: -140px;
+    margin-left: 200px;
+
+}
+
 
 .title-content {
     position: fixed;
@@ -210,16 +222,16 @@ h1 {
     margin-left: 10px;
 }
 
-#subtitle-content-domain {
+h3{
+    
     color: #605E5C;
-    position: absolute;
-    left: 40px;
-    padding: 0px 100px 0px 250px;
     font-size: 10px;
     line-height: 14px;
-    margin-left: 10px;
-    width: 100%;
+    width: 200px;
+    margin-top: -140px;
+    margin-left: 200px;
 }
+
 
 #title-content-users i {
     display: flex;
@@ -236,7 +248,7 @@ h1 {
     height: 45px;
     top: 100px;
     position: fixed;
-    margin-left: 220px;
+    margin-left: 0px;
     margin-top: 0px;
     width: 100%;
     border-bottom: 1px solid #605E5C;
@@ -278,20 +290,106 @@ button {
     border: none;
 }
 
-#searchfield-container {
-    margin: 0px;
+.searchfield-container {
+    width: 300px;
+    position: relative;
+    margin-top: 10px;
     clear: both;
+    margin-bottom: 20px;
 }
 
-#searchfield-container h5 {
-    padding: 140px 10px 20px 230px;
-}
 
-#searchfield-container input {
+.searchfield-container input {
+    
+    width: 300px;
     float: left;
     margin: -30px 10px 20px 230px;
+}
+.white-background{
+    margin-top: -210px;
+    margin-left: 200px;
+    position: fixed;
+    width: 100%;
+    height: 220px;
+    background-color: white;
 }
 
 #hello {
     margin: 1500px 1500px;
 }
+.assign-ip{
+    padding-bottom: 20px;
+    margin-top: 150px;
+    margin-left: 250px;
+}
+
+#myInput{
+    margin-left: 80px;
+    margin-top: -18px;
+}
+h5{
+    padding-top: 10px;
+    padding-left: 30px;
+    margin: 0px;
+}
+#myTable{
+    
+    width: 70%;
+    height: 250px;
+    margin-top: 250px;
+    margin-left: 230px;
+    text-align: left;
+    padding-top:20px;
+    padding: 8px;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+tr, td, th {
+    height: 30px;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  h3{
+      font-size: 13px;
+      position: relative;
+      margin-top: 75px;
+      margin-left: 260px;
+  }
+  form{
+      margin-top: 250px;
+      display: table;
+  }
+  #hidden-new-panel{
+      display: none;
+    padding: 0px;
+      color: white;
+      position: sticky;
+      float: right;
+      margin-top:-435px;
+      margin-right: 0px;
+      margin-left: 1000px;
+
+  }
+  #background-color{
+    width: 400px;
+    height: 500px;
+    display: grid;
+    padding: 5px;
+    border-radius: 3px;
+    background-color:#323130;
+    
+  }
+  label{
+      margin-left: 5px;
+      margin-bottom: 5px;
+  }
+  .input{
+    clear: both;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+  

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="C:\Users\Fnasser\Desktop\snu\CSS\style.css">
+
+    <title>Home - SNU Application</title>
+    <div class="top-nav">
+        <a class="active" href="main-page.html">SNU Application</a>
+        <div id="search-container">
+            <input type="text" placeholder="Search IP addresses, PCs, Users" name="search">
+        </div>
+    </div>
+
+</head>
+
+<body>
+
+    <div class="menu-nav">
+        <div id="menu-nav1">
+            <button id="home" onclick="window.location.href = 'main-page.html';">Home</button><i class="material-icons" style="font-size:24px;color:#2487DE">home</i>
+        </div>
+        <div id="menu-nav2">
+            <button onclick="window.location.href = 'Active-Directory.html';">Active Directory</button><i class="material-icons" style="font-size:24px;color:#2487DE ;">terrain</i>
+        </div>
+        <div id="menu-nav3">
+            <button onclick="window.location.href = 'IP-Management.html';">IP Management</button>
+        </div>
+        <div id="menu-nav4">
+            <button onclick="window.location.href = 'Stock.html';">Stock</button>
+        </div>
+        <div id="menu-nav5">
+            <button onclick="window.location.href = 'Licenses.html';">Licenses</button>
+        </div>
+        <div id="menu-nav6">
+            <button onclick="window.location.href = 'help-support.html';">Help + support</button>
+        </div>
+
+    </div>
+    <div class="fixed-container">
+        <div class="title-content">
+            <div id="title-content-users">
+                <i class="material-icons" style="font-size:44px;color:#2487DE">people</i>
+                <h2>Users</h2>
+            </div>
+        </div>
+        
+            <h3>omt.com.lb - IP Management</h3>
+    
+
+    </div>
+    
+    <div class="assign-ip">
+        <h5>Assign New IP Address</h5>
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Username, PC name or IP Address">
+
+
+    </div>
+    <div >
+        <table id="myTable">
+            <tr class="header">
+                <th>Username</th>
+                <th>PC Name</th>
+                <th>Department</th>
+                <th>IP Address</th>
+              </tr>
+              <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+                <td>192.168.222.15</td>
+              </tr>
+              <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+                <td>192.168.222.15</td>
+              </tr>
+              <tr>
+                <td>Ernst Handel</td>
+                <td>Roland Mendel</td>
+                <td>Austria</td>
+                <td>192.168.222.15</td>
+              </tr>
+              <tr>
+                <td>Island Trading</td>
+                <td>Helen Bennett</td>
+                <td>UK</td>
+                <td>192.168.222.15</td>
+              </tr>
+              <tr>
+                <td>Laughing Bacchus Winecellars</td>
+                <td>Yoshi Tannamuri</td>
+                <td>Canada</td>
+                <td>192.168.222.15</td>
+              </tr>
+              <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>Giovanni Rovelli</td>
+                <td>Italy</td>
+                <td>192.168.222.15</td>
+              </tr>
+        </table>
+    </div>
+
+
+
+</body>
+
+</html>

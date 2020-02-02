@@ -1,0 +1,44 @@
+<html>
+
+<head>
+<script src="jquery.min.js"></script>
+
+</head>
+<style type="text/css">
+#circle{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: 10px;
+}
+.square{
+    
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: 10px;
+}
+</style>
+<body>
+
+<div id="circle"></div>
+<iframe src="http://www.cnn.com"></iframe>
+<div class="square"></div>
+
+<div class="square"></div>
+<script type="text/javascript">
+
+$("#circle").hover(function() {
+    alert($("p").html())
+});
+$(".square").click(function() {
+    alert("square was clicked");
+});
+</script>
+
+</body>
+
+
+
+</html>
